@@ -20,7 +20,7 @@ define([
         });
 
         var updatePriceWrapper = wrapper.wrap(updatePrice, function(original){
-            var dynamic = this.options.spConfig.dynamic;
+            var dynamic = this.options.jsonConfig.dynamic;
             console.log(dynamic);
             for (var code in dynamic){
                 if (dynamic.hasOwnProperty(code)) {
@@ -56,22 +56,5 @@ define([
 
         targetModule.prototype._UpdatePrice = updatePriceWrapper;
         return targetModule;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     };
 });

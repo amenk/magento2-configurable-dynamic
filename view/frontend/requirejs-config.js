@@ -8,7 +8,7 @@ var config = {
             'Magento_ConfigurableProduct/js/configurable': {
                 'Andering_ConfigurableDynamic/js/model/skuswitch': true
             },
-			'Magento_Swatches/js/swatch-3renderer': {
+			'Magento_Swatches/js/swatch-renderer': {
                 'Andering_ConfigurableDynamic/js/model/swatch-skuswitch': true
             }
         }
